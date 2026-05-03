@@ -1,0 +1,12 @@
+[submodule "Student_Marks_Memo"]
+	path = Student_Marks_Memo
+	url = https://github.com/Satya-Raj139/Student_Marks_Memo.git
+[submodule "Emply_slry"]
+	path = Emply_slry
+	url = https://github.com/Satya-Raj139/Emply_slry.git
+[submodule "Image_Cretn"]
+	path = Image_Cretn
+	url = https://github.com/Satya-Raj139/Image_Cretn.git
+[submodule "ecommerce"]
+	path = ecommerce
+	url = https://github.com/Satya-Raj139/ecommerce.git
