@@ -1,0 +1,9 @@
+<?php
+$mycanvas=imagecreate($_GET['c1'],$_GET['c2']);
+$clr=ImageColorallocate($mycanvas,255,255,255);
+$clr1=imagecolorallocate($mycanvas,$_GET['red'],$_GET['green'],$_GET['blue']);
+imagerectangle($mycanvas,$_GET['x1'],$_GET['x2'],$_GET['x3'],$_GET['x4'],$clr1);
+//imagefilledrectangle($mycanvas,700,40,450,150,$clr1);
+header("content-type:image/png");
+imagepng($mycanvas);
+?>
